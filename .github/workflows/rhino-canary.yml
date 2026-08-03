@@ -8,12 +8,3 @@ jobs:
     steps:
       - run: sleep 45
       - run: echo rhino-workflow-sentinel-2026-08-03
-name: Rhino G06 Canaries
-on:
-  workflow_dispatch:
-  push:
-jobs:
-  canary:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo rhino-workflow-sentinel-2026-08-03
