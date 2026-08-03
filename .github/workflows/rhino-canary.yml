@@ -1,0 +1,9 @@
+name: Rhino G06 Canaries
+on:
+  workflow_dispatch:
+  push:
+jobs:
+  canary:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo rhino-workflow-sentinel-2026-08-03
